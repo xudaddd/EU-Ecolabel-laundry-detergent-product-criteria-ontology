@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.enit.fr/xuda/ontologies/laundry_detergent/1.0.0" uri="laundry_detergent.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.enit.fr/xuda/ontologies/detergent_criterion_1_dosage_requirements" uri="detergent_criterion_1_dosage_requirements.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.enit.fr/xuda/ontologies/detergent" uri="detergent.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.enit.fr/xuda/ontologies/detergent_criterion_5_packaging_requirements" uri="detergent_criterion_5_packaging_requirements.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.enit.fr/xuda/ontologies/detergent_criterion_3_biodegradability_of_organics" uri="detergent_criterion_3_biodegradability_of_organics.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.enit.fr/xuda/ontologies/detergent_criterion_2_toxicity_to_aquatic_organisms_critical_dilution_volume" uri="detergent_criterion_2_toxicity_to_aquatic_organisms_critical_dilution_volume.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.enit.fr/xuda/ontologies/detergent_criterion_1_dosage_requirements" uri="detergent_criterion_1_dosage_requirements.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.enit.fr/xuda/ontologies/commission_decision" uri="commission_decision.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.enit.fr/xuda/ontologies/detergent_criterion_4" uri="detergent_criterion_4.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.enit.fr/xuda/ontologies/detergent_criterion_4_excluded_or_limited_substances_and_mixtures" uri="detergent_criterion_4_excluded_or_limited_substances_and_mixtures.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement" uri="ghs_hazard_statement.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.enit.fr/xuda/ontologies/regulation_european_commission" uri="regulation_european_commission.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.enit.fr/xuda/ontologies/iso_standards" uri="iso_standards.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.enit.fr/xuda/ontologies/didlist" uri="didlist_1_saved_by_owlapi.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1504271452075" name="http://www.enit.fr/xuda/ontologies/commission_decision" uri="commission_decision.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1504271452075" name="http://www.enit.fr/xuda/ontologies/commission_recommendation" uri="commission_recommendation.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1504271452075" name="http://www.enit.fr/xuda/ontologies/didlist" uri="didlist_1_saved_by_owlapi.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1504271452075" name="http://www.enit.fr/xuda/ontologies/european_risk_phrases" uri="european_risk_phrases.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1504271452075" name="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement" uri="ghs_hazard_statement.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1504271452075" name="http://www.enit.fr/xuda/ontologies/iso_standards" uri="iso_standards.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1504271452075" name="http://www.enit.fr/xuda/ontologies/laundry_detergent" uri="laundry_detergent.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1504271452075" name="http://www.enit.fr/xuda/ontologies/laundry_detergent_criteria" uri="laundry_detergent_criteria.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1504271452075" name="http://www.enit.fr/xuda/ontologies/laundry_detergent_criterion_1_dosage_requirements" uri="laundry_detergent_criterion_1_dosage_requirements.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1504271452075" name="http://www.enit.fr/xuda/ontologies/laundry_detergent_criterion_2_toxicity_to_aquatic_organisms_critical_dilution_volume" uri="laundry_detergent_criterion_2_toxicity_to_aquatic_organisms_critical_dilution_volume.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1504271452075" name="http://www.enit.fr/xuda/ontologies/laundry_detergent_criterion_3_biodegradability_of_organics" uri="laundry_detergent_criterion_3_biodegradability_of_organics.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1504271452075" name="http://www.enit.fr/xuda/ontologies/laundry_detergent_criterion_4_excluded_or_limited_substances_and_mixtures" uri="laundry_detergent_criterion_4_excluded_or_limited_substances_and_mixtures.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1504271452075" name="http://www.enit.fr/xuda/ontologies/laundry_detergent_criterion_5_packaging_requirements" uri="laundry_detergent_criterion_5_packaging_requirements.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1504271452075" name="http://www.enit.fr/xuda/ontologies/regulation_european_commission" uri="regulation_european_commission.owl"/>
+    </group>
+</catalog>

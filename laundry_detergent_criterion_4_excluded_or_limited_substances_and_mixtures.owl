@@ -1,0 +1,491 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.enit.fr/xuda/ontologies/laundry_detergent_criterion_4_excluded_or_limited_substances_and_mixtures"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.enit.fr/xuda/ontologies/laundry_detergent_criterion_4_excluded_or_limited_substances_and_mixtures">
+    <Prefix name="" IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent_criterion_4_excluded_or_limited_substances_and_mixtures"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.enit.fr/xuda/ontologies/laundry_detergent/1.0.0</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is a prototype ontology of Criterion 4 Excluded or limited substances and mixtures. Acctually, the rules and concepts work as a buffer between external data and our core abstraction. What we try to do, to testify is the modularization of rules and layering of concepts.</Literal>
+    </Annotation>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H304"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H413"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH031"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R48"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R68"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H340"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H372"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH059"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H300"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#GHSHazardStatement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R52"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R64"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R40"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R60"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH070"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R49"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH032"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H301"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R45"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H317"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R65"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H373"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H361"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H410"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H341"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R41"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R53"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R61"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H411"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H334"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R26"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R46"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H362"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH029"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H350"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H370"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H310"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H330"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R42"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R50"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#EURiskPhrase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R62"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R27"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R39"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H412"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H400"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R59"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R43"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H351"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H371"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H311"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H331"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R63"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R31"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/detergent_criterion_4#test_0_substance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R51"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <Class IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#GHSHazardStatement"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH029"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH031"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH032"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH059"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH070"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H301"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H304"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H310"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H311"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H317"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H330"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H331"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H334"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H340"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H341"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H350"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H350i"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H351"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360D"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360Df"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360F"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360FD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360Fd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H361d"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H361f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H361fd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H362"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H370"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H371"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H372"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H373"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H400"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H410"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H411"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H412"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatementCriteria4"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H413"/>
+    </ClassAssertion>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">New local &amp; contextual concept created: GHSHazardStatementCriteria4, reduce significantly rule&apos;s number</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#CandidateLaundryDetergent"/>
+                <Variable IRI="urn:swrl#d"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#hasIngredient"/>
+                <Variable IRI="urn:swrl#d"/>
+                <Variable IRI="urn:swrl#i"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#hasHazardStatement"/>
+                <Variable IRI="urn:swrl#i"/>
+                <Variable IRI="urn:swrl#hs"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="#GHSHazardStatementCriteria4"/>
+                <Variable IRI="urn:swrl#hs"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#RejectedDetergent"/>
+                <Variable IRI="urn:swrl#d"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Criterion 4 Excluded or limited substances and mixtures</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#hasIngredient"/>
+                <Variable IRI="urn:swrl#detergent"/>
+                <Variable IRI="urn:swrl#ingredient"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#EDTA"/>
+                <Variable IRI="urn:swrl#ingredient"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#CandidateLaundryDetergent"/>
+                <Variable IRI="urn:swrl#detergent"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#RejectedDetergent"/>
+                <Variable IRI="urn:swrl#detergent"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Criterion 4 Excluded or limited substances and mixtures</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#hasIngredient"/>
+                <Variable IRI="urn:swrl#detergent"/>
+                <Variable IRI="urn:swrl#ingredient"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#Phosphate"/>
+                <Variable IRI="urn:swrl#ingredient"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#CandidateLaundryDetergent"/>
+                <Variable IRI="urn:swrl#detergent"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#RejectedDetergent"/>
+                <Variable IRI="urn:swrl#detergent"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Criterion 4 Excluded or limited substances and mixtures</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#hasIngredient"/>
+                <Variable IRI="urn:swrl#detergent"/>
+                <Variable IRI="urn:swrl#ingredient"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#PolycyclicMusk"/>
+                <Variable IRI="urn:swrl#ingredient"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#CandidateLaundryDetergent"/>
+                <Variable IRI="urn:swrl#detergent"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent#RejectedDetergent"/>
+                <Variable IRI="urn:swrl#detergent"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+

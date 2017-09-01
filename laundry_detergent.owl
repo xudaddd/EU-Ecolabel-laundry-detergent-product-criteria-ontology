@@ -1,0 +1,1889 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.enit.fr/xuda/ontologies/laundry_detergent"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.enit.fr/xuda/ontologies/laundry_detergent"
+     versionIRI="http://www.enit.fr/xuda/ontologies/laundry_detergent/1.0.0">
+    <Prefix name="" IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Prefix name="laundry_detergent" IRI="http://www.enit.fr/xuda/ontologies/laundry_detergent"/>
+    <Import>http://www.enit.fr/xuda/ontologies/iso_standards</Import>
+    <Import>http://www.enit.fr/xuda/ontologies/ghs_hazard_statement</Import>
+    <Import>http://www.enit.fr/xuda/ontologies/regulation_european_commission</Import>
+    <Import>http://www.enit.fr/xuda/ontologies/european_risk_phrases</Import>
+    <Import>http://www.enit.fr/xuda/ontologies/commission_decision</Import>
+    <Import>http://www.enit.fr/xuda/ontologies/didlist</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">This ontology tries to construct a basic conceptualization of the laundry detergent world.
+
+A example detergent case is included inside, hd_ld_example_0 (heavy duty laundry detergent example NO.0). Its relevant property individuals (range of object property) are: anbo_hd_ld_0 (AbilityANBO); annbo_hd_ld_0 (AbilityANNBO); cdv_hd_ld_0 (CriticalDilutionVolume); rd_hd_ld_0 (Reference dosage); wur_hd_ld_0 (WeightUtilityRatio). 
+
+We assume that the detergent product of this case example is a liquid, heavy-duty product produced by Procter &amp; Gamble
+
+This modeling uses my original Entity &amp; Rule Separation pattern</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#APEO"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDetergentProductType"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#low_duty_detergent_ANBO_liquid_or_gel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsBleachingAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DNDP"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHazardStatement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LowDutyDetergent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anbo_hd_ld_0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DerogationExemptedSubstanceMixture"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWashingPerformanceDocumentedAtTemperature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tablet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAbilityANBOPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiocideUsedForPreservation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTradename"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EDTA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ml_kg_wash"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subtilisin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#low_duty_detergent_ANNBO_liquid_or_gel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DIDP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegulationEuropeUnion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#test_2_cdv"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasConcentrationInPercentage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbilityANNBO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurfactantConcentrationLessthan25Percent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stain_remover_ANNBO_liquid_or_gel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAbilityANBOLiquidOrGel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#annbo_hd_ld_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#test_0_detergent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#heavy_duty_detergent_ANBO_powder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeightUtilityRatio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cdv_hd_ld_0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NTAasImpurityinMGDAandGLDA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsSurfactant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CriticalDilutionVolume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeavyDutyDetergent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCriticalDilutionVolume"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsFragrance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsBufferingAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExcludedSubstancesAndMixtures"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCASNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RejectedDetergent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAbilityANNBOPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CreteriaLimitValueANBO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#l_kg_wash"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAbilityANNBOLiquidOrGel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#percent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OpticalBrightenerOnlyForHeavyDutyLaundryDetergent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsPreservative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TAED"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#liquid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbilityANNBOLiquidOrGel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#g_kg_wash"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsSudsInhibitor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FunctionalUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsHydrotrope"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rd_hd_ld_0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fragrance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phosphate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsFiller"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFunctionalUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stain_remover_ANNBO_powder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsBuilderAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BBP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#capsule"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsColorant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hd_ld_example_0"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#powder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReferenceDosage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#france"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReferenceDosage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BleachCatalyst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Enzyme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#heavy_duty_detergent_ANBO_liquid_or_gel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#test_2_detergent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DINP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DEHP"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsAntiRedepositionAgent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMarketedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsSolvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWeightUtilityRatio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#test_1_detergent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FabricSoftener"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#low_duty_detergent_ANBO_powder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#heavy_duty_detergent_ANNBO_liquid_or_gel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbilityANBO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PolycyclicMusk"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#test_0_EDTA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isManufacturedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DBP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HazardousSubstanceMixture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExemptedExcludedSubstancesAndMixtures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsEnzyme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActionAs"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPoints"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbilityANBOPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetergentProductType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEcolabelValidTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Substance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isComposedOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stain_remover_ANBO_liquid_or_gel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CreteriaLimitValueANNBO"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSpecification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wur_hd_ld_0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbilityANNBOPowder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#low_duty_detergent_ANNBO_powder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stain_remover_ANBO_powder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubstanceVeryHighConcern"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsDyeTransferInhibitor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsCorrosionInhibitingSubstance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#procter_gamble"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EUEcolabelLaundryDetergentsPerformanceTest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColourSafeDetergent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manufacturer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LimitedSubstancesAndMixtures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsFabricWhiteningAgent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#workAsSoap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StainRemover"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbilityANBOLiquidOrGel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#heavy_duty_detergent_ANNBO_powder"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#APEO"/>
+        <Class IRI="#Chemical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbilityANBO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFunctionalUnit"/>
+            <Class IRI="#FunctionalUnit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbilityANBO"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbilityANBOLiquidOrGel"/>
+        <Class IRI="#AbilityANBO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbilityANBOPowder"/>
+        <Class IRI="#AbilityANBO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbilityANNBO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFunctionalUnit"/>
+            <Class IRI="#FunctionalUnit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbilityANNBO"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbilityANNBOLiquidOrGel"/>
+        <Class IRI="#AbilityANNBO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbilityANNBOPowder"/>
+        <Class IRI="#AbilityANNBO"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BBP"/>
+        <Class IRI="#Chemical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiocideUsedForPreservation"/>
+        <Class IRI="#ExemptedExcludedSubstancesAndMixtures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BleachCatalyst"/>
+        <Class IRI="#ExemptedExcludedSubstancesAndMixtures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CandidateLaundryDetergent"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasCriticalDilutionVolume"/>
+                <Class IRI="#CriticalDilutionVolume"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasCriticalDilutionVolume"/>
+                <Class IRI="#CriticalDilutionVolume"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CandidateLaundryDetergent"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasDetergentProductType"/>
+                <Class IRI="#DetergentProductType"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasDetergentProductType"/>
+                <Class IRI="#DetergentProductType"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CandidateLaundryDetergent"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasReferenceDosage"/>
+                <Class IRI="#ReferenceDosage"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasReferenceDosage"/>
+                <Class IRI="#ReferenceDosage"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CandidateLaundryDetergent"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasWeightUtilityRatio"/>
+                <Class IRI="#WeightUtilityRatio"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasWeightUtilityRatio"/>
+                <Class IRI="#WeightUtilityRatio"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CandidateLaundryDetergent"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isManufacturedBy"/>
+                <Class IRI="#Manufacturer"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#isManufacturedBy"/>
+                <Class IRI="#Manufacturer"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CandidateLaundryDetergent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Chemical"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CandidateLaundryDetergent"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#isMarketedIn"/>
+            <Class IRI="#Country"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColourSafeDetergent"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreteriaLimitValueANBO"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreteriaLimitValueANNBO"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CriticalDilutionVolume"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFunctionalUnit"/>
+            <Class IRI="#FunctionalUnit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CriticalDilutionVolume"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DBP"/>
+        <Class IRI="#Chemical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DEHP"/>
+        <Class IRI="#Chemical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DIDP"/>
+        <Class IRI="#Chemical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DINP"/>
+        <Class IRI="#Chemical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DNDP"/>
+        <Class IRI="#Chemical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EDTA"/>
+        <Class IRI="#Chemical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Enzyme"/>
+        <Class IRI="#ExemptedExcludedSubstancesAndMixtures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FabricSoftener"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fragrance"/>
+        <Class IRI="#ExemptedExcludedSubstancesAndMixtures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HazardousSubstanceMixture"/>
+        <Class IRI="#ExcludedSubstancesAndMixtures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeavyDutyDetergent"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LimitedSubstancesAndMixtures"/>
+        <Class IRI="#Substance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LowDutyDetergent"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NTAasImpurityinMGDAandGLDA"/>
+        <Class IRI="#ExemptedExcludedSubstancesAndMixtures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OpticalBrightenerOnlyForHeavyDutyLaundryDetergent"/>
+        <Class IRI="#ExemptedExcludedSubstancesAndMixtures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phosphate"/>
+        <Class IRI="#Chemical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PolycyclicMusk"/>
+        <Class IRI="#Chemical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReferenceDosage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFunctionalUnit"/>
+            <Class IRI="#FunctionalUnit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReferenceDosage"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RejectedDetergent"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StainRemover"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubstanceVeryHighConcern"/>
+        <Class IRI="#ExcludedSubstancesAndMixtures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subtilisin"/>
+        <Class IRI="#Chemical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurfactantConcentrationLessthan25Percent"/>
+        <Class IRI="#ExemptedExcludedSubstancesAndMixtures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TAED"/>
+        <Class IRI="#Chemical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeightUtilityRatio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFunctionalUnit"/>
+            <Class IRI="#FunctionalUnit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeightUtilityRatio"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#APEO"/>
+        <Class IRI="#BBP"/>
+        <Class IRI="#DBP"/>
+        <Class IRI="#DEHP"/>
+        <Class IRI="#DIDP"/>
+        <Class IRI="#DINP"/>
+        <Class IRI="#DNDP"/>
+        <Class IRI="#EDTA"/>
+        <Class IRI="#Phosphate"/>
+        <Class IRI="#PolycyclicMusk"/>
+        <Class IRI="#Subtilisin"/>
+        <Class IRI="#TAED"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FabricSoftener"/>
+        <Class IRI="#HeavyDutyDetergent"/>
+        <Class IRI="#LowDutyDetergent"/>
+        <Class IRI="#StainRemover"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#GHSHazardStatement"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AbilityANBO"/>
+        <NamedIndividual IRI="#anbo_hd_ld_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AbilityANNBO"/>
+        <NamedIndividual IRI="#annbo_hd_ld_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DetergentProductType"/>
+        <NamedIndividual IRI="#capsule"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalDilutionVolume"/>
+        <NamedIndividual IRI="#cdv_hd_ld_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Country"/>
+        <NamedIndividual IRI="#france"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FunctionalUnit"/>
+        <NamedIndividual IRI="#g_kg_wash"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DetergentProductType"/>
+        <NamedIndividual IRI="#gel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HeavyDutyDetergent"/>
+        <NamedIndividual IRI="#hd_ld_example_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreteriaLimitValueANBO"/>
+        <NamedIndividual IRI="#heavy_duty_detergent_ANBO_liquid_or_gel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreteriaLimitValueANBO"/>
+        <NamedIndividual IRI="#heavy_duty_detergent_ANBO_powder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreteriaLimitValueANNBO"/>
+        <NamedIndividual IRI="#heavy_duty_detergent_ANNBO_liquid_or_gel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreteriaLimitValueANNBO"/>
+        <NamedIndividual IRI="#heavy_duty_detergent_ANNBO_powder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FunctionalUnit"/>
+        <NamedIndividual IRI="#l_kg_wash"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DetergentProductType"/>
+        <NamedIndividual IRI="#liquid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreteriaLimitValueANBO"/>
+        <NamedIndividual IRI="#low_duty_detergent_ANBO_liquid_or_gel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreteriaLimitValueANBO"/>
+        <NamedIndividual IRI="#low_duty_detergent_ANBO_powder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreteriaLimitValueANNBO"/>
+        <NamedIndividual IRI="#low_duty_detergent_ANNBO_liquid_or_gel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreteriaLimitValueANNBO"/>
+        <NamedIndividual IRI="#low_duty_detergent_ANNBO_powder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FunctionalUnit"/>
+        <NamedIndividual IRI="#ml_kg_wash"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FunctionalUnit"/>
+        <NamedIndividual IRI="#percent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DetergentProductType"/>
+        <NamedIndividual IRI="#powder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manufacturer"/>
+        <NamedIndividual IRI="#procter_gamble"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReferenceDosage"/>
+        <NamedIndividual IRI="#rd_hd_ld_0"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreteriaLimitValueANBO"/>
+        <NamedIndividual IRI="#stain_remover_ANBO_liquid_or_gel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreteriaLimitValueANBO"/>
+        <NamedIndividual IRI="#stain_remover_ANBO_powder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreteriaLimitValueANNBO"/>
+        <NamedIndividual IRI="#stain_remover_ANNBO_liquid_or_gel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreteriaLimitValueANNBO"/>
+        <NamedIndividual IRI="#stain_remover_ANNBO_powder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DetergentProductType"/>
+        <NamedIndividual IRI="#tablet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EDTA"/>
+        <NamedIndividual IRI="#test_0_EDTA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateLaundryDetergent"/>
+        <NamedIndividual IRI="#test_0_detergent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CandidateLaundryDetergent"/>
+        <NamedIndividual IRI="#test_1_detergent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalDilutionVolume"/>
+        <NamedIndividual IRI="#test_2_cdv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LowDutyDetergent"/>
+        <NamedIndividual IRI="#test_2_detergent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WeightUtilityRatio"/>
+        <NamedIndividual IRI="#wur_hd_ld_0"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH029"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R29"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH031"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R31"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH032"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R32"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH059"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R59"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH070"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R39"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH070"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R40"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#EUH070"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R41"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H300"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H301"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R25"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H304"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R65"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H310"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R27"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H311"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R24"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H317"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R43"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H330"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R23"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H330"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R26"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H331"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R23"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H334"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R42"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H340"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R46"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H341"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R68"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H350"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R45"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H350i"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R49"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H351"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R40"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360D"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R61"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360Df"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R61"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360Df"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R62"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360F"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R60"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360FD"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R60"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360FD"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R61"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360Fd"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R60"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H360Fd"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R63"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H361d"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R63"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H361f"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R62"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H361fd"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R62"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H361fd"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R63"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H362"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R64"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H370"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R23"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H370"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R24"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H370"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R25"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H370"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R26"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H370"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R27"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H370"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R28"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H370"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R39"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H371"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H371"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R21"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H371"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R22"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H371"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R68"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H372"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R23"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H372"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R24"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H372"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R25"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H372"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R48"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H373"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R20"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H373"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R21"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H373"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R22"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H373"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R48"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H400"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R50"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H410"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R50"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H410"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R53"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H411"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R51"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H411"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R52"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H411"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R53"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H412"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R52"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H412"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R53"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasHazardStatementEqualToEURiskPhrase"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#H413"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases#R53"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.enit.fr/xuda/ontologies/didlist#hasFunctionalUnit"/>
+        <NamedIndividual IRI="#anbo_hd_ld_0"/>
+        <NamedIndividual IRI="#g_kg_wash"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.enit.fr/xuda/ontologies/didlist#hasFunctionalUnit"/>
+        <NamedIndividual IRI="#annbo_hd_ld_0"/>
+        <NamedIndividual IRI="#g_kg_wash"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.enit.fr/xuda/ontologies/didlist#hasFunctionalUnit"/>
+        <NamedIndividual IRI="#cdv_hd_ld_0"/>
+        <NamedIndividual IRI="#l_kg_wash"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbilityANBOLiquidOrGel"/>
+        <NamedIndividual IRI="#hd_ld_example_0"/>
+        <NamedIndividual IRI="#anbo_hd_ld_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAbilityANNBOLiquidOrGel"/>
+        <NamedIndividual IRI="#hd_ld_example_0"/>
+        <NamedIndividual IRI="#annbo_hd_ld_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCriticalDilutionVolume"/>
+        <NamedIndividual IRI="#hd_ld_example_0"/>
+        <NamedIndividual IRI="#cdv_hd_ld_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDetergentProductType"/>
+        <NamedIndividual IRI="#hd_ld_example_0"/>
+        <NamedIndividual IRI="#liquid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#hd_ld_example_0"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/didlist#Acetic_acid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <NamedIndividual IRI="#hd_ld_example_0"/>
+        <NamedIndividual IRI="http://www.enit.fr/xuda/ontologies/didlist#C8-18_Amphoacetates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasReferenceDosage"/>
+        <NamedIndividual IRI="#hd_ld_example_0"/>
+        <NamedIndividual IRI="#rd_hd_ld_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWeightUtilityRatio"/>
+        <NamedIndividual IRI="#hd_ld_example_0"/>
+        <NamedIndividual IRI="#wur_hd_ld_0"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isManufacturedBy"/>
+        <NamedIndividual IRI="#hd_ld_example_0"/>
+        <NamedIndividual IRI="#procter_gamble"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMarketedIn"/>
+        <NamedIndividual IRI="#hd_ld_example_0"/>
+        <NamedIndividual IRI="#france"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.enit.fr/xuda/ontologies/didlist#hasFunctionalUnit"/>
+        <NamedIndividual IRI="#rd_hd_ld_0"/>
+        <NamedIndividual IRI="#ml_kg_wash"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <NamedIndividual IRI="#test_0_detergent"/>
+        <NamedIndividual IRI="#test_0_EDTA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCriticalDilutionVolume"/>
+        <NamedIndividual IRI="#test_2_detergent"/>
+        <NamedIndividual IRI="#test_2_cdv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.enit.fr/xuda/ontologies/didlist#hasFunctionalUnit"/>
+        <NamedIndividual IRI="#wur_hd_ld_0"/>
+        <NamedIndividual IRI="#g_kg_wash"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#anbo_hd_ld_0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#annbo_hd_ld_0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#cdv_hd_ld_0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">30000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#heavy_duty_detergent_ANBO_liquid_or_gel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#heavy_duty_detergent_ANBO_powder"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#heavy_duty_detergent_ANNBO_liquid_or_gel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#heavy_duty_detergent_ANNBO_powder"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">1.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#low_duty_detergent_ANBO_liquid_or_gel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#low_duty_detergent_ANBO_powder"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#low_duty_detergent_ANNBO_liquid_or_gel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#low_duty_detergent_ANNBO_powder"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#rd_hd_ld_0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#stain_remover_ANBO_liquid_or_gel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#stain_remover_ANBO_powder"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#stain_remover_ANNBO_liquid_or_gel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#stain_remover_ANNBO_powder"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#test_2_cdv"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">20000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasValue"/>
+        <NamedIndividual IRI="#wur_hd_ld_0"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.0</Literal>
+    </DataPropertyAssertion>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="http://www.enit.fr/xuda/ontologies/didlist#hasFunctionalUnit"/>
+        <ObjectProperty IRI="#hasFunctionalUnit"/>
+    </EquivalentObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsAntiRedepositionAgent"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsBleachingAgent"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsBufferingAgent"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsBuilderAgent"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsColorant"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsCorrosionInhibitingSubstance"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsDyeTransferInhibitor"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsEnzyme"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsFabricWhiteningAgent"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsFiller"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsFragrance"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsHydrotrope"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsPreservative"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsSoap"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsSolvent"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsSudsInhibitor"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#workAsSurfactant"/>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasDetergentProductType"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isManufacturedBy"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAbilityANBOLiquidOrGel"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAbilityANBOPowder"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAbilityANNBOLiquidOrGel"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAbilityANNBOPowder"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCriticalDilutionVolume"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDetergentProductType"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHazardStatement"/>
+        <Class IRI="http://www.enit.fr/xuda/ontologies/didlist#DetergentIngredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHazardStatement"/>
+        <Class IRI="#Chemical"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHazardStatement"/>
+        <Class IRI="#Substance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReferenceDosage"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWeightUtilityRatio"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isManufacturedBy"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isManufacturedBy"/>
+        <Class IRI="#Chemical"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isManufacturedBy"/>
+        <Class IRI="#Substance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMarketedIn"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+        <Class IRI="#Chemical"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+        <Class IRI="#Substance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAbilityANBOLiquidOrGel"/>
+        <Class IRI="#AbilityANBOLiquidOrGel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAbilityANBOPowder"/>
+        <Class IRI="#AbilityANBOPowder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAbilityANNBOLiquidOrGel"/>
+        <Class IRI="#AbilityANNBOLiquidOrGel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAbilityANNBOPowder"/>
+        <Class IRI="#AbilityANNBOPowder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCriticalDilutionVolume"/>
+        <Class IRI="#CriticalDilutionVolume"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDetergentProductType"/>
+        <Class IRI="#DetergentProductType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHazardStatement"/>
+        <Class IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement#GHSHazardStatement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="http://www.enit.fr/xuda/ontologies/didlist#DetergentIngredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Chemical"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Substance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReferenceDosage"/>
+        <Class IRI="#ReferenceDosage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWeightUtilityRatio"/>
+        <Class IRI="#WeightUtilityRatio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isManufacturedBy"/>
+        <Class IRI="#Manufacturer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMarketedIn"/>
+        <Class IRI="#Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsAntiRedepositionAgent"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsBleachingAgent"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsBufferingAgent"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsBuilderAgent"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsColorant"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsCorrosionInhibitingSubstance"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsDyeTransferInhibitor"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsEnzyme"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsFabricWhiteningAgent"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsFiller"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsFragrance"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsFunctionalAgentInDetergent"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsHydrotrope"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsPreservative"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsSoap"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsSolvent"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsSudsInhibitor"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#workAsSurfactant"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </ObjectPropertyRange>
+    <EquivalentDataProperties>
+        <DataProperty IRI="http://www.enit.fr/xuda/ontologies/didlist#hasValue"/>
+        <DataProperty IRI="#hasValue"/>
+    </EquivalentDataProperties>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCASNumber"/>
+        <Class IRI="#Chemical"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCASNumber"/>
+        <Class IRI="#Substance"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasPoints"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWashingPerformanceDocumentedAtTemperature"/>
+        <Class IRI="#CandidateLaundryDetergent"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasCASNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasEcolabelValidTime"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPoints"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSpecification"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTradename"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWashingPerformanceDocumentedAtTemperature"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">help to make sure that product type has good functional unit for reference dosage</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#CandidateLaundryDetergent"/>
+                <Variable IRI="urn:swrl#a"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasDetergentProductType"/>
+                <Variable IRI="urn:swrl#a"/>
+                <NamedIndividual IRI="#gel"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasReferenceDosage"/>
+                <Variable IRI="urn:swrl#a"/>
+                <Variable IRI="urn:swrl#r"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://www.enit.fr/xuda/ontologies/didlist#hasFunctionalUnit"/>
+                <Variable IRI="urn:swrl#r"/>
+                <NamedIndividual IRI="#ml_kg_wash"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">help to make sure that product type has good functional unit for reference dosage</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#CandidateLaundryDetergent"/>
+                <Variable IRI="urn:swrl#a"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasDetergentProductType"/>
+                <Variable IRI="urn:swrl#a"/>
+                <NamedIndividual IRI="#liquid"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasReferenceDosage"/>
+                <Variable IRI="urn:swrl#a"/>
+                <Variable IRI="urn:swrl#r"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://www.enit.fr/xuda/ontologies/didlist#hasFunctionalUnit"/>
+                <Variable IRI="urn:swrl#r"/>
+                <NamedIndividual IRI="#ml_kg_wash"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">help to make sure that product type has good functional unit for reference dosage</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#CandidateLaundryDetergent"/>
+                <Variable IRI="urn:swrl#a"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasDetergentProductType"/>
+                <Variable IRI="urn:swrl#a"/>
+                <NamedIndividual IRI="#powder"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasReferenceDosage"/>
+                <Variable IRI="urn:swrl#a"/>
+                <Variable IRI="urn:swrl#r"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://www.enit.fr/xuda/ontologies/didlist#hasFunctionalUnit"/>
+                <Variable IRI="urn:swrl#r"/>
+                <NamedIndividual IRI="#g_kg_wash"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">help to make sure that product type has good functional unit for reference dosage</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#CandidateLaundryDetergent"/>
+                <Variable IRI="urn:swrl#a"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasDetergentProductType"/>
+                <Variable IRI="urn:swrl#a"/>
+                <NamedIndividual IRI="#tablet"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasReferenceDosage"/>
+                <Variable IRI="urn:swrl#a"/>
+                <Variable IRI="urn:swrl#r"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://www.enit.fr/xuda/ontologies/didlist#hasFunctionalUnit"/>
+                <Variable IRI="urn:swrl#r"/>
+                <NamedIndividual IRI="#g_kg_wash"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CandidateLaundryDetergent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This class represents the general detergent concerned by EU Eco-label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ColourSafeDetergent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">colour-safe detergents means detergents used for ordinary washing of coloured textiles at any temperature.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HeavyDutyDetergent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">heavy-duty detergents means detergents used for ordinary washing of white textiles at any temperature.
+
+For general laundry with food, oil or grease stains, a heavy duty formula should be used. Light duty works well for hand-washing or delicate, lightly soiled laundry loads.
+
+For ‘heavy-duty detergents’ and ‘colour-safe detergents’ the dosage recommended by the manufacturer to consumers for the water hardness of 2,5 mmol CaCO3/l and ‘normally soiled’ textiles is taken as the reference dosage for the calculation of the ecological criteria, and for the testing of washing performance. For heavy-duty detergents and colour-safe detergents this is related to the dosage per 4,5 kg load (dry textiles) in the washing machine.
+
+A paper on heavy-duty detergent: Galante, D. C., &amp; Dillan, K. W. (1981). Heavy-duty laundry detergents. Journal of the American Oil Chemists Society, 58(4), 356A-362A.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#HeavyDutyDetergent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.nuffieldfoundation.org/practical-chemistry/comparing-light-and-heavy-duty-detergents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LowDutyDetergent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">low-duty detergents means detergents intended for delicate fabrics.
+
+For general laundry with food, oil or grease stains, a heavy duty formula should be used. Light duty works well for hand-washing or delicate, lightly soiled laundry loads.
+
+For ‘low-duty detergents’ the dosage recommended by the manufacturer to consumers for the water hardness of 2,5 mmol CaCO3/l and ‘lightly soiled’ textiles is taken as the reference dosage for the calculation of the ecological criteria, and for the testing of washing performance. For low-duty detergents this is related to the dosage per 2,5 kg load (dry textiles) in the washing machine.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#LowDutyDetergent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://www.nuffieldfoundation.org/practical-chemistry/comparing-light-and-heavy-duty-detergents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ReferenceDosage</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The dosage corresponds to the recommended dosage in g/kg wash (powders/tablets) or ml/kg wash (liquids). The recommended dosage for a water hardness of 2,5 mmol CaCO3/l for normally soiled textiles (heavy-duty detergents, colour-safe detergents) and lightly soiled textiles (low-duty detergents), respectively, shall be used.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Substance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">substance means a chemical element and their compounds in the natural state or obtained by any production process, including any additive necessary to preserve the stability of the products and any impurity deriving from the process used, but excluding any solvent which may be separated without affecting the stability of the substance or chaning its composition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasEcolabelValidTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Where the Ecolabel is awarded on the basis of an application evaluated according to the criteria set out in Decision 2003/200/EC, that Ecolabel may be used for 12 months from the date of adoption of this Decision.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasHazardStatement</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The definition of this object property has dependencies on other imported entities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hd_ld_example_0</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">This individual is an example detergent case is included inside, hd_ld_example_0 (heavy duty laundry detergent example NO.0). Its relevant property individuals (range of object property) are: anbo_hd_ld_0 (AbilityANBO); annbo_hd_ld_0 (AbilityANNBO); cdv_hd_ld_0 (CriticalDilutionVolume); rd_hd_ld_0 (Reference dosage); wur_hd_ld_0 (WeightUtilityRatio). 
+
+We assume that the detergent product of this case example is a liquid, heavy-duty product produced by Procter &amp; Gamble</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hd_ld_example_0</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">heavy-duty laundry detergent example NO.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#procter_gamble</IRI>
+        <IRI>http://www.pg.com/fr_FR/index.shtml</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#procter_gamble</IRI>
+        <IRI>https://en.wikipedia.org/wiki/Procter_%26_Gamble</IRI>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+

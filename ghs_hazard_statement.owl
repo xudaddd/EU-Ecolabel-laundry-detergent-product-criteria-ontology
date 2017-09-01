@@ -1,0 +1,1640 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement">
+    <Prefix name="" IRI="http://www.enit.fr/xuda/ontologies/ghs_hazard_statement"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">This is a prototype ontology of GHS (Globally Harmonized System of Classification and Labeling of Chemicals) Hazard Statement. This ontology is created as a modular of detergent ontology. We hope this modular can be replaced by Linked Data service or Data Repository service.</Literal>
+    </Annotation>
+    <Declaration>
+        <NamedIndividual IRI="#H304"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H413"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H336"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH031"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasHazardStatement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H312"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H203"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H340"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H372"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH205"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH059"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H223"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H300"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H271"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H332"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H251"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H360D"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GHSHazardStatement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H360FD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH070"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H228"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH032"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H360Df"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH_201/201EUH201_201A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H301"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H224"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H204"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H317"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH210"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH044"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H373"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H220"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H361f"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H361"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H200"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH202"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H260"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H410"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H272"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH206"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H240"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H252"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H341"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H280"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH071"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasHazardCode"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H314"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H302"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H334"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H411"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H225"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H318"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H205"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH029"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H362"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H360F"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H221"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H350"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H370"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H201"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH203"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H310"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H261"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH209/209EUH209_209A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H330"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H241"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH207"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H281"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H315"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H361fd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H412"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H335"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H400"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H319"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H202"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH014"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H226"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH066"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH018"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH204"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H242"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H351"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH006"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H222"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H371"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H350i"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EUH208"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H311"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H250"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H331"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H361d"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H290"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H270"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H360Fd"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#GHSHazardStatement"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasHazardCode"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GHSHazardStatement"/>
+        <DataAllValuesFrom>
+            <DataProperty IRI="#hasHazardStatement"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH006"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH014"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH018"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH019"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH029"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH031"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH032"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH044"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH059"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH066"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH070"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH071"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH202"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH203"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH204"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH205"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH206"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH207"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH208"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH210"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H200"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H201"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H202"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H203"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H204"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H205"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H220"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H221"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H222"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H223"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H224"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H225"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H226"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H228"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H240"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H241"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H242"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H250"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H251"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H252"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H260"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H261"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H270"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H271"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H272"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H280"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H281"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H290"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H301"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H302"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H304"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H310"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H311"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H312"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H314"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H315"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H317"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H318"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H319"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H330"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H331"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H332"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H334"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H335"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H336"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H340"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H341"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H350"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H350i"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H351"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H360D"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H360Df"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H360F"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H360FD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H360Fd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H361"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H361d"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H361f"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H361fd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H362"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H370"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H371"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H372"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H373"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H400"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H410"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H411"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H412"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#H413"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH209/209EUH209_209A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GHSHazardStatement"/>
+        <NamedIndividual IRI="#EUH_201/201EUH201_201A"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Explosive when dry.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH006"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH006</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH006"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Explosive with or without contact with air.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH014"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH014"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Reacts violently with water.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH018"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH018"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">In use may form flammable/explosive vapour-air mixture.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH019"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH019"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May form explosive peroxides.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH029"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH029</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH029"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Contact with water liberates toxic gas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH031"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH031</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH031"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Contact with acids liberates toxic gas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH032"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH032</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH032"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Contact with acids liberates very toxic gas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH044"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH044</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH044"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Risk of explosion if heated under confinement.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH059"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH059</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH059"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Hazardous to the ozone layer.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH066"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH066</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH066"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Repeated exposure may cause skin dryness or cracking.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH070"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH070</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH070"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Toxic by eye contact.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH071"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH071</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH071"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Corrosive to the respiratory tract.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH202"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH202</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH202"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Cyanoacrylate. Danger. Bonds skin and eyes in seconds. Keep out of the reach of children.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH203"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH203</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH203"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Contains chromium (VI). May produce an allergic reaction.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH204"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH204</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH204"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Contains isocyanates. May produce an allergic reaction. </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH205"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH205</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH205"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Contains epoxy constituents. May produce an allergic reaction. </Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH206"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH206</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH206"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Warning! Do not use together with other products. May release dangerous gases (chlorine).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH207"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH207</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH207"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Warning! Contains cadmium. Dangerous fumes are formed during use. See information supplied by the manufacturer. Comply with the safety instructions.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH208"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH208</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH208"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Contains &lt;name of sensitising substance&gt;. May produce an allergic reaction.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH210"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH210</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH210"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Safety data sheet available on request.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H200"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H200"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Unstable explosives.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H201"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H201</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H201"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Explosive; mass explosion hazard.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H202"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H202</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H202"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Explosive, severe projection hazard.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H203"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H203</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H203"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Explosive; fire, blast or projection hazard.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H204"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H204</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H204"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Fire or projection hazard.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H205"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H205</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H205"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May mass explode in fire.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H220"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H220</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H220"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Extremely flammable gas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H221"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H221</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H221"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Flammable gas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H222"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H222</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H222"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Extremely flammable aerosol.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H223"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H223</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H223"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Flammable aerosol.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H224"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H224</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H224"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Extremely flammable liquid and vapour.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H225"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H225</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H225"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Highly flammable liquid and vapour.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H226"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H226</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H226"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Flammable liquid and vapour.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H228"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H228</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H228"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Flammable solid.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H240"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H240</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H240"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Heating may cause an explosion.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H241"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H241</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H241"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Heating may cause a fire or explosion.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H242"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H242</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H242"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Heating may cause a fire.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H250"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H250</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H250"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Catches fire spontaneously if exposed to air.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H251"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H251</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H251"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Self-heating: may catch fire.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H252"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H252</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H252"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Self-heating in large quantities; may catch fire.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H260"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H260</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H260"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">In contact with water releases flammable gases which may ignite spontaneously.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H261"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H261</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H261"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">In contact with water releases flammable gases.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H270"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H270</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H270"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May cause or intensify fire; oxidiser.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H271"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H271</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H271"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May cause fire or explosion; strong oxidiser.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H272"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H272</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H272"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May intensify fire; oxidiser.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H280"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H280</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H280"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Contains gas under pressure; may explode if heated.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H281"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H281</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H281"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Contains refrigerated gas; may cause cryogenic burns or injury.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H290"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H290</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H290"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May be corrosive to metals.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H300"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H300"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Fatal if swallowed.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H301"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H301</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H301"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Toxic if swallowed.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H302"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H302</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H302"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Harmful if swallowed.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H304"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H304</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H304"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May be fatal if swallowed and enters airways.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H310"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H310</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H310"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Fatal in contact with skin.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H311"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H311</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H311"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Toxic in contact with skin.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H312"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H312</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H312"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Harmful in contact with skin.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H314"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H314</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H314"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Causes severe skin burns and eye damage.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H315"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H315</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H315"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Causes skin irritation.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H317"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H317</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H317"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May cause an allergic skin reaction.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H318"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H318</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H318"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Causes serious eye damage.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H319"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H319</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H319"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Causes serious eye irritation.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H330"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H330</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H330"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Fatal if inhaled.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H331"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H331</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H331"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Toxic if inhaled.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H332"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H332</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H332"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Harmful if inhaled.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H334"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H334</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H334"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May cause allergy or asthma symptoms or breathing difficulties if inhaled.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H335"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H335</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H335"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May cause respiratory irritation.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H336"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H336</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H336"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May cause drowsiness or dizziness.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H340"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H340</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H340"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May cause genetic defects &lt;state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard&gt;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H341"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H341</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H341"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Suspected of causing genetic defects &lt;state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard&gt;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H350"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H350</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H350"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May cause cancer &lt;state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard&gt;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H350i"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H350i</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H350i"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May cause cancer by inhalation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H351"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H351</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H351"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Suspected of causing cancer &lt;state route of exposure if it is conclusively proven that no other routs of exposure cause the hazard&gt;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H360D"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H360D</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H360D"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May damage the unborn child</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H360Df"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H360Df</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H360Df"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May damage the unborn child. Suspected of damagin fertility.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H360F"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H360F</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H360F"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May damage fertility</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H360FD"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H360FD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H360FD"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May damage fertility. May damage the unborn child.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H360Fd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H360Fd</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H360Fd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May damage the unborn child. Suspected of damaging fertility.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H361"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H361</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H361"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Suspected of damaging fertility or the unborn child &lt;state specific effect if known&gt; &lt;state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard&gt;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H361d"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H361d</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H361d"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Suspected of damaging the unborn child</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H361f"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H361f</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H361f"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Suspected of damaging fertility</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H361fd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H361fd</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H361fd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Suspected of damaging fertility. Suspected of damaging the unborn child.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H362"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H362</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H362"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May cause harm to breast-fed children.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H370"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H370</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H370"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Causes damage to organs &lt;or state all organs affected, if known&gt; &lt;state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard&gt;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H371"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H371</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H371"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May cause damage to organs &lt;or state all organs affected, if known&gt; &lt;state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard&gt;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H372"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H372</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H372"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Causes damage to organs &lt;or state all organs affected, if known&gt; through prolonged or repeated exposure &lt;state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard&gt;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H373"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H373</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H373"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May cause damage to organs &lt;or state all organs affected, if known&gt; through prolonged or repeated exposure &lt;state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard&gt;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H400"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H400"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Very toxic to aquatic life.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H410"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H410</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H410"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Very toxic to aquatic life with long lasting effects.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H411"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H411</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H411"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Toxic to aquatic life with long lasting effects.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H412"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H412</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H412"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Harmful to aquatic life with long lasting effects.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#H413"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">H413</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#H413"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">May cause long lasting harmful effects to aquatic life.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH209/209EUH209_209A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH209/209A</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH209/209EUH209_209A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Can become highly flammable in use.
+Can become flammable in use.
+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardCode"/>
+        <NamedIndividual IRI="#EUH_201/201EUH201_201A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">EUH 201/201A</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <NamedIndividual IRI="#EUH_201/201EUH201_201A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Contains lead. Should not be used on surfaces liable to be chewed or sucked by children.
+Warning! Contains lead.
+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasHazardCode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasHazardStatement"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+

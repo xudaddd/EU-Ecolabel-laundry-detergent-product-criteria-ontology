@@ -1,0 +1,1173 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.enit.fr/xuda/ontologies/european_risk_phrases"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.enit.fr/xuda/ontologies/european_risk_phrases">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">This is a prototype ontology of European Risk Phrase. This ontology is created as a modular of detergent ontology. We hope this modular can be replaced by Linked Data service or Data Repository service.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#EURiskPhrase"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPhraseStatement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasRiskCode"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R18"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R19"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R22"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R24"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R25"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R26"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R27"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R28"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R30"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R31"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R32"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R33"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R34"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R35"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R36"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R37"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R38"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R39"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R40"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R41"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R42"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R43"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R44"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R45"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R46"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R48"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R49"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R50"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R51"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R52"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R53"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R54"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R55"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R56"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R57"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R58"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R59"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R60"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R61"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R62"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R63"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R64"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R65"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R66"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R67"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R68"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R9"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R11"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R17"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R18"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R19"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R22"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R24"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R25"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R26"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R27"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R28"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R30"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R31"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R32"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R33"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R34"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R35"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R36"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R37"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R38"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R39"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R40"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R41"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R42"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R43"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R44"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R45"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R46"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R48"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R49"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R50"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R51"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R52"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R53"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R54"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R55"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R56"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R57"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R58"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R59"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R60"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R61"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R62"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R63"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R64"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R65"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R66"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R67"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R68"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EURiskPhrase"/>
+        <NamedIndividual IRI="#R9"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R1"/>
+        <Literal datatypeIRI="&xsd;string">Explosive when dry</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R1"/>
+        <Literal datatypeIRI="&xsd;string">R1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R10"/>
+        <Literal datatypeIRI="&xsd;string">Flammable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R10"/>
+        <Literal datatypeIRI="&xsd;string">R10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R11"/>
+        <Literal datatypeIRI="&xsd;string">Highly flammable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R11"/>
+        <Literal datatypeIRI="&xsd;string">R11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R12"/>
+        <Literal datatypeIRI="&xsd;string">Extremely flammable</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R12"/>
+        <Literal datatypeIRI="&xsd;string">R12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R14"/>
+        <Literal datatypeIRI="&xsd;string">Reacts violently with water</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R14"/>
+        <Literal datatypeIRI="&xsd;string">R14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R15"/>
+        <Literal datatypeIRI="&xsd;string">Contact with water liberates extremely flammable gases</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R15"/>
+        <Literal datatypeIRI="&xsd;string">R15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R16"/>
+        <Literal datatypeIRI="&xsd;string">Explosive when mixed with oxidising substances</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R16"/>
+        <Literal datatypeIRI="&xsd;string">R16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R17"/>
+        <Literal datatypeIRI="&xsd;string">Spontaneously flammable in air</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R17"/>
+        <Literal datatypeIRI="&xsd;string">R17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R18"/>
+        <Literal datatypeIRI="&xsd;string">In use, may form flammable/explosive vapour-air mixture</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R18"/>
+        <Literal datatypeIRI="&xsd;string">R18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R19"/>
+        <Literal datatypeIRI="&xsd;string">May form explosive peroxides</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R19"/>
+        <Literal datatypeIRI="&xsd;string">R19</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R2"/>
+        <Literal datatypeIRI="&xsd;string">Risk of explosion by shock, friction, fire or other sources of ignition</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R2"/>
+        <Literal datatypeIRI="&xsd;string">R2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R20"/>
+        <Literal datatypeIRI="&xsd;string">Harmful by inhalation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R20"/>
+        <Literal datatypeIRI="&xsd;string">R20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R21"/>
+        <Literal datatypeIRI="&xsd;string">Harmful in contact with skin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R21"/>
+        <Literal datatypeIRI="&xsd;string">R21</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R22"/>
+        <Literal datatypeIRI="&xsd;string">Harmful if swallowed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R22"/>
+        <Literal datatypeIRI="&xsd;string">R22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R23"/>
+        <Literal datatypeIRI="&xsd;string">Toxic by inhalation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R23"/>
+        <Literal datatypeIRI="&xsd;string">R23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R24"/>
+        <Literal datatypeIRI="&xsd;string">Toxic in contact with skin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R24"/>
+        <Literal datatypeIRI="&xsd;string">R24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R25"/>
+        <Literal datatypeIRI="&xsd;string">Toxic if swallowed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R25"/>
+        <Literal datatypeIRI="&xsd;string">R25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R26"/>
+        <Literal datatypeIRI="&xsd;string">Very toxic by inhalation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R26"/>
+        <Literal datatypeIRI="&xsd;string">R26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R27"/>
+        <Literal datatypeIRI="&xsd;string">Very toxic in contact with skin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R27"/>
+        <Literal datatypeIRI="&xsd;string">R27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R28"/>
+        <Literal datatypeIRI="&xsd;string">Very toxic if swallowed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R28"/>
+        <Literal datatypeIRI="&xsd;string">R28</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R29"/>
+        <Literal datatypeIRI="&xsd;string">Contact with water liberates toxic gas.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R29"/>
+        <Literal datatypeIRI="&xsd;string">R29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R3"/>
+        <Literal datatypeIRI="&xsd;string">Extreme risk of explosion by shock, friction, fire or other sources of ignition</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R3"/>
+        <Literal datatypeIRI="&xsd;string">R3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R30"/>
+        <Literal datatypeIRI="&xsd;string">Can become highly flammable in use</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R30"/>
+        <Literal datatypeIRI="&xsd;string">R30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R31"/>
+        <Literal datatypeIRI="&xsd;string">Contact with acids liberates toxic gas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R31"/>
+        <Literal datatypeIRI="&xsd;string">R31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R32"/>
+        <Literal datatypeIRI="&xsd;string">Contact with acids liberates very toxic gas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R32"/>
+        <Literal datatypeIRI="&xsd;string">R32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R33"/>
+        <Literal datatypeIRI="&xsd;string">Danger of cumulative effects</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R33"/>
+        <Literal datatypeIRI="&xsd;string">R33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R34"/>
+        <Literal datatypeIRI="&xsd;string">Causes burns</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R34"/>
+        <Literal datatypeIRI="&xsd;string">R34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R35"/>
+        <Literal datatypeIRI="&xsd;string">Causes severe burns</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R35"/>
+        <Literal datatypeIRI="&xsd;string">R35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R36"/>
+        <Literal datatypeIRI="&xsd;string">Irritating to eyes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R36"/>
+        <Literal datatypeIRI="&xsd;string">R36</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R37"/>
+        <Literal datatypeIRI="&xsd;string">Irritating to respiratory system</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R37"/>
+        <Literal datatypeIRI="&xsd;string">R37</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R38"/>
+        <Literal datatypeIRI="&xsd;string">Irritating to skin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R38"/>
+        <Literal datatypeIRI="&xsd;string">R38</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R39"/>
+        <Literal datatypeIRI="&xsd;string">Danger of very serious irreversible effects</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R39"/>
+        <Literal datatypeIRI="&xsd;string">R39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R4"/>
+        <Literal datatypeIRI="&xsd;string">Forms very sensitive explosive metallic compounds</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R4"/>
+        <Literal datatypeIRI="&xsd;string">R4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R40"/>
+        <Literal datatypeIRI="&xsd;string">Limited evidence of a carcinogenic effect</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R40"/>
+        <Literal datatypeIRI="&xsd;string">R40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R41"/>
+        <Literal datatypeIRI="&xsd;string">Risk of serious damage to eyes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R41"/>
+        <Literal datatypeIRI="&xsd;string">R41</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R42"/>
+        <Literal datatypeIRI="&xsd;string">May cause sensitisation by inhalation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R42"/>
+        <Literal datatypeIRI="&xsd;string">R42</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R43"/>
+        <Literal datatypeIRI="&xsd;string">May cause sensitisation by skin contact</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R43"/>
+        <Literal datatypeIRI="&xsd;string">R43</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R44"/>
+        <Literal datatypeIRI="&xsd;string">Risk of explosion if heated under confinement</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R44"/>
+        <Literal datatypeIRI="&xsd;string">R44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R45"/>
+        <Literal datatypeIRI="&xsd;string">May cause cancer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R45"/>
+        <Literal datatypeIRI="&xsd;string">R45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R46"/>
+        <Literal datatypeIRI="&xsd;string">May cause inheritable genetic damage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R46"/>
+        <Literal datatypeIRI="&xsd;string">R46</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R48"/>
+        <Literal datatypeIRI="&xsd;string">Danger of serious damage to health by prolonged exposure</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R48"/>
+        <Literal datatypeIRI="&xsd;string">R48</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R49"/>
+        <Literal datatypeIRI="&xsd;string">May cause cancer by inhalation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R49"/>
+        <Literal datatypeIRI="&xsd;string">R49</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R5"/>
+        <Literal datatypeIRI="&xsd;string">Heating may cause an explosion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R5"/>
+        <Literal datatypeIRI="&xsd;string">R5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R50"/>
+        <Literal datatypeIRI="&xsd;string">Very toxic to aquatic organisms</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R50"/>
+        <Literal datatypeIRI="&xsd;string">R50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R51"/>
+        <Literal datatypeIRI="&xsd;string">Toxic to aquatic organisms</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R51"/>
+        <Literal datatypeIRI="&xsd;string">R51</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R52"/>
+        <Literal datatypeIRI="&xsd;string">Harmful to aquatic organisms</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R52"/>
+        <Literal datatypeIRI="&xsd;string">R52</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R53"/>
+        <Literal datatypeIRI="&xsd;string">May cause long-term adverse effects in the aquatic environment</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R53"/>
+        <Literal datatypeIRI="&xsd;string">R53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R54"/>
+        <Literal datatypeIRI="&xsd;string">Toxic to flora</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R54"/>
+        <Literal datatypeIRI="&xsd;string">R54</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R55"/>
+        <Literal datatypeIRI="&xsd;string">Toxic to fauna</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R55"/>
+        <Literal datatypeIRI="&xsd;string">R55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R56"/>
+        <Literal datatypeIRI="&xsd;string">Toxic to soil organisms</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R56"/>
+        <Literal datatypeIRI="&xsd;string">R56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R57"/>
+        <Literal datatypeIRI="&xsd;string">Toxic to bees</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R57"/>
+        <Literal datatypeIRI="&xsd;string">R57</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R58"/>
+        <Literal datatypeIRI="&xsd;string">May cause long-term adverse effects in the environment</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R58"/>
+        <Literal datatypeIRI="&xsd;string">R58</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R59"/>
+        <Literal datatypeIRI="&xsd;string">Dangerous for the ozone layer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R59"/>
+        <Literal datatypeIRI="&xsd;string">R59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R6"/>
+        <Literal datatypeIRI="&xsd;string">Explosive with or without contact with air</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R6"/>
+        <Literal datatypeIRI="&xsd;string">R6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R60"/>
+        <Literal datatypeIRI="&xsd;string">May impair fertility</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R60"/>
+        <Literal datatypeIRI="&xsd;string">R60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R61"/>
+        <Literal datatypeIRI="&xsd;string">May cause harm to the unborn child</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R61"/>
+        <Literal datatypeIRI="&xsd;string">R61</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R62"/>
+        <Literal datatypeIRI="&xsd;string">Possible risk of impaired fertility</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R62"/>
+        <Literal datatypeIRI="&xsd;string">R62</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R63"/>
+        <Literal datatypeIRI="&xsd;string">Possible risk of harm to the unborn child</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R63"/>
+        <Literal datatypeIRI="&xsd;string">R63</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R64"/>
+        <Literal datatypeIRI="&xsd;string">May cause harm to breast-fed babies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R64"/>
+        <Literal datatypeIRI="&xsd;string">R64</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R65"/>
+        <Literal datatypeIRI="&xsd;string">Harmful: may cause lung damage if swallowed</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R65"/>
+        <Literal datatypeIRI="&xsd;string">R65</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R66"/>
+        <Literal datatypeIRI="&xsd;string">Repeated exposure may cause skin dryness or cracking</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R66"/>
+        <Literal datatypeIRI="&xsd;string">R66</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R67"/>
+        <Literal datatypeIRI="&xsd;string">Vapours may cause drowsiness and dizziness</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R67"/>
+        <Literal datatypeIRI="&xsd;string">R67</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R68"/>
+        <Literal datatypeIRI="&xsd;string">Possible risk of irreversible effects</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R68"/>
+        <Literal datatypeIRI="&xsd;string">R68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R7"/>
+        <Literal datatypeIRI="&xsd;string">May cause fire</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R7"/>
+        <Literal datatypeIRI="&xsd;string">R7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R8"/>
+        <Literal datatypeIRI="&xsd;string">Contact with combustible material may cause fire</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R8"/>
+        <Literal datatypeIRI="&xsd;string">R8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <NamedIndividual IRI="#R9"/>
+        <Literal datatypeIRI="&xsd;string">Explosive when mixed with combustible material</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRiskCode"/>
+        <NamedIndividual IRI="#R9"/>
+        <Literal datatypeIRI="&xsd;string">R9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasPhraseStatement"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasRiskCode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
